@@ -1,9 +1,9 @@
 apiVersion: theme.halo.run/v1alpha1
 kind: Theme
 metadata:
-  name: moderna-template
+  name: moderna-template-eng
 spec:
-  displayName: Moderna
+  displayName: Moderna-eng
   author:
     name: shrChang.Liu
     website: "https://github.com/liuchangfitcloud"
