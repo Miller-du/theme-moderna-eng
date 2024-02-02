@@ -10,7 +10,7 @@
             <h4 th:text="${menu.spec.displayName}"></h4>
             <ul>
               <li th:each="it : ${menu.menuItems}"><i class="bx bx-chevron-right"></i> <a th:href="@{${it.status.href}}"
-                  th:text="${it.status.displayName}">首页</a></li>
+                  th:text="${it.status.displayName}">Home</a></li>
             </ul>
           </th:block>
         </div>
@@ -20,7 +20,7 @@
             <h4 th:text="${menu.spec.displayName}"></h4>
             <ul>
               <li th:each="it : ${menu.menuItems}"><i class="bx bx-chevron-right"></i> <a th:href="@{${it.status.href}}"
-                  th:text="${it.status.displayName}">首页</a></li>
+                  th:text="${it.status.displayName}">Home</a></li>
             </ul>
           </th:block>
         </div>
