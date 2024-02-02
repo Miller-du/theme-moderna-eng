@@ -19,7 +19,7 @@
           <h2 th:text="${blog.spec.title}"></h2>
 
           <ol>
-            <li><a href="/">首页</a></li>
+            <li><a href="/">Home</a></li>
             <li><a th:href="@{'/' + ${blog.spec.slug}}" th:text="${blog.spec.title}"></a></li>
             <li th:text="${post.spec.title}"></li>
           </ol>
@@ -58,7 +58,7 @@
                   </li>
                   <li class="d-flex align-items-center">
                     <!-- <i class="bi bi-chat-dots"></i> 
-                    <span th:text="${post.stats.comment} + ' 回复'"></span> -->
+                    <span th:text="${post.stats.comment} + ' reversion'"></span> -->
                     <i class="bi bi-person-plus"></i>
                     <span th:text="${post.stats.visit}"></span>
                   </li>
@@ -85,17 +85,17 @@
 
             <div class="blog-comments" style="display: none;">
 
-              <h4 class="comments-count" th:text="${post.stats.comment} + ' 条回复'"></h4>
+              <h4 class="comments-count" th:text="${post.stats.comment} + ' reversions'"></h4>
 
 
               <div id="comment-2" class="comment">
                 <div class="d-flex">
                   <div class="comment-img"><img alt=""></div>
                   <div>
-                    <h5><a href="">人物A</a> <a href="#" class="reply"><i class="bi bi-reply-fill"></i> 回复</a></h5>
+                    <h5><a href="">A</a> <a href="#" class="reply"><i class="bi bi-reply-fill"></i> reply</a></h5>
                     <time datetime="2020-01-01">2020-01-01</time>
                     <p>
-                       这是回复
+                       This is a reply.
                     </p>
                   </div>
                 </div>
@@ -104,10 +104,10 @@
                   <div class="d-flex">
                     <div class="comment-img"><img alt=""></div>
                     <div>
-                      <h5><a href="">人物B</a> <a href="#" class="reply"><i class="bi bi-reply-fill"></i> 回复</a></h5>
+                      <h5><a href="">B</a> <a href="#" class="reply"><i class="bi bi-reply-fill"></i> reply</a></h5>
                       <time datetime="2020-01-01">2020-01-01</time>
                       <p>
-                        我回复你了
+                        I've sent you a reply.
                       </p>
                     </div>
                   </div>
@@ -116,10 +116,10 @@
                     <div class="d-flex">
                       <div class="comment-img"><img alt=""></div>
                       <div>
-                        <h5><a href="">人物A</a> <a href="#" class="reply"><i class="bi bi-reply-fill"></i> 回复</a></h5>
+                        <h5><a href="">A</a> <a href="#" class="reply"><i class="bi bi-reply-fill"></i> reply</a></h5>
                         <time datetime="2020-01-01">2020-01-01</time>
                         <p>
-                          回复已收到
+                          Received.
                         </p>
                       </div>
                     </div>
