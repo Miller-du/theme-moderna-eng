@@ -18,7 +18,7 @@
         <div class="d-flex justify-content-between align-items-center">
           <h2 th:text="${singlePage.spec.title}"></h2>
           <ol>
-            <li><a href="/">首页</a></li>
+            <li><a href="/">Home</a></li>
             <li th:text="${singlePage.spec.title}"></li>
           </ol>
         </div>
@@ -85,7 +85,7 @@
               <div class="card-body">
                 <h5 class="card-title"><a th:href="@{${it.url}}"><span th:text="${it.title}"></span></a></h5>
                 <p class="card-text" th:text="${it.desc}"></p>
-                <div class="read-more"><a th:href="@{${it.url}}"><i class="bi bi-arrow-right"></i>查看更多</a></div>
+                <div class="read-more"><a th:href="@{${it.url}}"><i class="bi bi-arrow-right"></i>Read more</a></div>
               </div>
             </div>
           </div>
@@ -99,8 +99,8 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>价格</h2>
-          <p th:text="${theme.config.service.price_desc}">诚信经营，童叟无欺！</p>
+          <h2>Price</h2>
+          <p th:text="${theme.config.service.price_desc}"></p>
         </div>
 
         <div class="row no-gutters">
