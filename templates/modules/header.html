@@ -6,7 +6,7 @@
     </div>
     <nav id="navbar" class="navbar" th:if="${theme.config.common_style.show_menu}">
       <ul>
-        <li><a th:class="${page=='home'} ? 'active' : '' " href="/">首页</a></li>
+        <li><a th:class="${page=='home'} ? 'active' : '' " href="/">Home</a></li>
         <li><a th:if="${theme.config.about.show}"
             th:with="about = ${singlePageFinder.getByName(theme.config.about.page)}"
             th:class="${page==about.spec.slug} ? 'active' : '' " th:href="@{'/' + ${about.spec.slug}}"
