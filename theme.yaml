@@ -1,12 +1,12 @@
 apiVersion: theme.halo.run/v1alpha1
- kind: Theme
- metadata:
-   name: moderna-template-eng
- spec:
-   displayName: Moderna-eng
-   author:
-     name: shrChang.Liu
-     website: "https://github.com/liuchangfitcloud"
+kind: Theme
+metadata:
+  name: moderna-template
+spec:
+  displayName: Moderna
+  author:
+    name: shrChang.Liu
+    website: "https://github.com/liuchangfitcloud"
   description: Moderna html5 template for Halo
   logo: "/themes/moderna-template/assets/img/favicon.png"
   website: "https://halo.run"
