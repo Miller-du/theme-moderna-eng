@@ -5,7 +5,7 @@ metadata:
 spec:
   displayName: Moderna-eng
   author:
-    name: shrChang.Liu, Shu.Tu
+    name: shrChang.Liu
     website: "https://github.com/liuchangfitcloud"
   description: Moderna html5 template for Halo
   logo: "/themes/moderna-template/assets/img/favicon.png"
