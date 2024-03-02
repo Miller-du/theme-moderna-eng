@@ -3,14 +3,14 @@ kind: Theme
 metadata:
   name: moderna-template
 spec:
-  displayName: Moderna
+  displayName: Moderna-English
   author:
-    name: shrChang.Liu
-    website: "https://github.com/liuchangfitcloud"
-  description: Moderna html5 template for Halo
+    name: tu.shu
+    website: "https://github.com/miller-du"
+  description: Moderna html5 template for Halo (English)
   logo: "/themes/moderna-template/assets/img/favicon.png"
   website: "https://halo.run"
-  repo: "https://github.com/liuchangfitcloud/theme-moderna"
+  repo: "https://github.com/Miller-du/theme-moderna-eng/"
   settingName: "theme-moderna-setting"
   configMapName: "theme-moderna-configMap"
   version: "1.0.0"
